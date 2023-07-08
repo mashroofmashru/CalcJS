@@ -30,7 +30,7 @@ body{
     color: white;
     text-align: end;
     font-size: 75px;
-    /* box-shadow: 0px 3px 32px #bcbac5; */
+    pointer-events: none;
 
 
 }
