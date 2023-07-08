@@ -9,28 +9,26 @@ body{
     width: 300px;
     height: 500px;
     border-radius: 10px;
-    background-color: rgb(90 104 119);
+    background-color: #3b4651;
     margin: 0 auto;
     margin-top: 70px ;
-    /* box-shadow:  inset -6px -3px 46px rgb(41 44 47), 5px 5px 8px 0px rgb(49 44 44 / 84%), 3px 5px 8px #121418; */
-    
 }
 
 .calculator-key{
     border-radius: 40px
 }
 
-.screen{
+#screen{
     width: 220px;
     height: 60px;
-    background-color: rgb(90 104 119);
+    background-color: #3b4651;
     margin-left: 55px;
     margin-top: 76PX;
     border: none;
     color: white;
     text-align: end;
     font-size: 75px;
-    pointer-events: none;
+    /* pointer-events: none; */
 
 
 }
@@ -54,7 +52,17 @@ body{
 
 }
 
+.operator-btn:hover{
+    transition-duration: 0.1s;
+    background-color: #6b98be;
+}
+
+.operator-btn:active{
+    transform: translateY(4px);
+}
+
 .btn{
+    border-radius: 30px;
     margin: 3px;
     border: none;
     width: 58px;
@@ -67,6 +75,15 @@ body{
 
 }
 
+.btn:hover{
+    transition-duration: 0.1s;
+    background-color: #424e5a;
+}
+
+.btn:active{
+    transform: translateY(4px);
+}
+
 .number{
     text-align: center;
     
@@ -76,7 +93,7 @@ body{
     float: left;
 
 }
-.equla-btn{
+.equl-btn{
     float: left;
 }
 .eqlbtn{
@@ -89,4 +106,13 @@ body{
     background-color:  #ff7077;
     font-size: 24px;
 
+}
+
+.eqlbtn:hover{
+    transition-duration: 0.1s;
+    background-color: #424e5a;
+}
+
+.eqlbtn:active{
+    transform: translateY(4px);
 }
