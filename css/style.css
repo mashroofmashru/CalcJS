@@ -16,6 +16,10 @@ body{
     
 }
 
+.calculator-key{
+    border-radius: 40px
+}
+
 .screen{
     width: 220px;
     height: 60px;
@@ -28,5 +32,61 @@ body{
     font-size: 75px;
     /* box-shadow: 0px 3px 32px #bcbac5; */
 
+
+}
+
+.button{
+    margin-left: 13px;
+    margin-top: 31px;
+    
+
+}
+
+.operator-btn{
+    margin: 3px;
+    border-radius: 30px;
+    border: none;
+    width: 58px;
+    height: 58px;
+    color: white;
+    background-color: #899dae;
+    font-size: 24px;
+
+}
+
+.btn{
+    margin: 3px;
+    border: none;
+    width: 58px;
+    height: 58px;
+    color: white;
+    background-color: transparent;
+    font-size: 24px;
+
+
+
+}
+
+.number{
+    text-align: center;
+    
+
+}
+.row{
+    float: left;
+
+}
+.equla-btn{
+    float: left;
+}
+.eqlbtn{
+    margin: 3px;
+    border-radius: 30px;
+    border: none;
+    width: 58px;
+    height: 250px;
+    color: white;
+    background-color:  #ff7077;
+    font-size: 24px;
 
 }
