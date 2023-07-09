@@ -17,18 +17,26 @@ body{
 .calculator-key{
     border-radius: 40px
 }
+.output{
+    width: 220px;
+    height: 60px;
+    margin-left: 55px;
+    margin-top: 76PX;
+    padding-top: 80px;
+
+}
 
 #screen{
     width: 220px;
     height: 60px;
     background-color: #3b4651;
-    margin-left: 55px;
-    margin-top: 76PX;
+    /* margin-left: 55px;
+    margin-top: 76PX; */
     border: none;
     color: white;
     text-align: end;
     font-size: 75px;
-    /* pointer-events: none; */
+    pointer-events: none;
 
 
 }
