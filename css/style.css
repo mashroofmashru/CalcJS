@@ -9,7 +9,7 @@ body{
     width: 300px;
     height: 500px;
     border-radius: 10px;
-    background-color: #3b4651;
+    background-color: #1b1b2e;
     margin: 0 auto;
     margin-top: 70px ;
 }
@@ -29,7 +29,7 @@ body{
 #screen{
     width: 220px;
     height: 60px;
-    background-color: #3b4651;
+    background-color: #1b1b2e;
     /* margin-left: 55px;
     margin-top: 76PX; */
     border: none;
