@@ -1,4 +1,4 @@
-![CalcJS](https://github.com/mashroofmashru/CalcJS/assets/136979239/8d7f7eac-6b5b-4d02-a7cf-f75c6409a28a)# CalcJS
+# CalcJS
 This is a README file for my calculator website project. I created this website using JavaScript, HTML, and CSS. The website allows you to perform basic arithmetic operations using the buttons on the screen. You can view the website live at https://mashroofmashru.github.io/CalcJS/index.html
 
 ![CalcJS](https://github.com/mashroofmashru/CalcJS/assets/136979239/391fdc8e-14a3-4d01-b410-b727f875cb67)
